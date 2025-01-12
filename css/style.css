@@ -103,6 +103,6 @@ body {
 }
 
 .header-action-search:hover path,
-.action-cart-img:hover path {
+.header-action-cart:hover path {
   stroke: #c99e71;
 }
