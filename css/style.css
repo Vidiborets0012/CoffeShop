@@ -313,11 +313,13 @@ body {
   margin-bottom: 12px;
 }
 
-.history-content-subtitle {
+.history-content-subtitle,
+.discover-content-subtitle {
   margin-bottom: 36px;
 }
 
-.history-content-text {
+.history-content-text,
+.discover-content-text {
   text-transform: capitalize;
   color: rgba(255, 255, 255, 0.8);
 }
@@ -442,6 +444,39 @@ body {
 }
 
 .popular-link:hover {
+  color: #c99e71;
+  background-color: #1c1814;
+}
+
+.discover {
+  margin-bottom: 140px;
+}
+
+.discover-inner {
+  background-color: #1c1814;
+  padding: 72px 89px 84px 169px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 160px;
+}
+
+.discover-content-text {
+  margin-bottom: 36px;
+}
+
+.discover-link {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 20px 36px;
+  text-transform: uppercase;
+  background-color: #c99e71;
+  transition: all 0.5s;
+}
+
+.discover-link:hover {
   color: #c99e71;
   background-color: #1c1814;
 }
