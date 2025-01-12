@@ -321,3 +321,127 @@ body {
   text-transform: capitalize;
   color: rgba(255, 255, 255, 0.8);
 }
+
+.popular {
+  margin-bottom: 140px;
+  text-align: center;
+}
+
+.popular-title {
+  margin-bottom: 12px;
+}
+
+.popular-subtitle {
+  margin-bottom: 56px;
+}
+
+.popular-inner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 56px;
+}
+
+.popular-item {
+  padding: 48px 48px 40px;
+  background-color: #121315;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.popular-item-img {
+  margin-bottom: 36px;
+}
+
+.popular-item-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  margin-bottom: 20px;
+}
+
+.rating-list {
+  display: flex;
+  gap: 4px;
+}
+
+.rating-title {
+  line-height: 19px;
+  color: #c99e71;
+}
+
+.popular-title {
+  font-family: 'Righteous', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.popular-price {
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.accent-color {
+  color: #c99e71;
+}
+
+.accent-text {
+  text-decoration: line-through;
+}
+
+.popular-btn {
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 12px 0;
+  background-color: #c99e71;
+  /* display: flex; */
+  display: none;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  width: 170px;
+  margin: 28px auto 0;
+  transition: all 0.5s;
+}
+
+.popular-item:hover .popular-btn {
+  display: flex;
+}
+
+.popular-item:hover .popular-item-rating {
+  display: none;
+}
+
+.popular-item:hover .popular-price {
+  display: none;
+}
+
+.popular-btn:hover {
+  color: #c99e71;
+  background-color: #1c1814;
+}
+
+.popular-btn:hover path {
+  stroke: #c99e71;
+}
+
+.popular-link {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  padding: 20px 36px;
+  background-color: #c99e71;
+}
+
+.popular-link:hover {
+  color: #c99e71;
+  background-color: #1c1814;
+}
