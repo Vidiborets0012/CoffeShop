@@ -41,6 +41,12 @@ body {
   background-color: #14110e;
 }
 
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 .header {
   background-color: #1c1814;
   padding: 32px 0 33px;
@@ -105,4 +111,84 @@ body {
 .header-action-search:hover path,
 .header-action-cart:hover path {
   stroke: #c99e71;
+}
+
+.hero {
+  background-image: url('../images/hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  margin-bottom: 137px;
+}
+
+.hero-inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 147px 0 158px;
+}
+
+.hero-content-title {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 94px;
+  max-width: 550px;
+  margin-bottom: 32px;
+}
+
+.hero-content-text {
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 511px;
+  margin-bottom: 64px;
+}
+
+.hero-content-link {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 24px 40px;
+  background-color: #c99e71;
+  display: block;
+  max-width: 205px;
+  margin-bottom: 8px;
+}
+
+.hero-content-link:hover {
+  color: #c99e71;
+  background-color: #1c1814;
+}
+
+.hero-video-btn {
+  align-self: flex-end;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  height: 109px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.hero-video-btn:hover {
+  color: #c99e71;
+  /* fill: #c99e71; */
+}
+
+.hero-video-btn:hover circle {
+  stroke: #c99e71;
+}
+
+.hero-video-btn:hover path {
+  fill: #c99e71;
 }
