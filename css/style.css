@@ -312,7 +312,8 @@ body {
 .history-content-title,
 .menu-popular-title,
 .testimonial-title,
-.reservation-title {
+.reservation-title,
+.news-title {
   margin-bottom: 12px;
 }
 
@@ -320,7 +321,8 @@ body {
 .discover-content-subtitle,
 .menu-popular-subtitle,
 .testimonial-subtitle,
-.reservation-subtitle {
+.reservation-subtitle,
+.news-subtitle {
   margin-bottom: 36px;
 }
 
@@ -715,4 +717,64 @@ body {
 .resrvation-form-btn:hover {
   color: #c99e71;
   background-color: #1c1814;
+}
+
+.news {
+  margin-bottom: 140px;
+}
+
+.news-title,
+.news-subtitle {
+  text-align: center;
+}
+
+.news-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-item {
+  background-color: #1c1814;
+}
+
+/* .news-img {
+  margin-bottom: 20px;
+} */
+.news-item-description {
+  padding: 20px 24px 24px;
+}
+
+.news-item-info {
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.news-item-by {
+  color: #c99e71;
+  margin-right: 6px;
+}
+
+.news-item-date {
+  margin-left: auto;
+}
+
+.mews-item-text {
+  font-family: 'Righteous', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: capitalize;
+  margin-bottom: 32px;
+}
+
+.news-item-link {
+  line-height: 19px;
+  color: #c99e71;
+  padding-right: 32px;
+  background-image: url(../images/news-icon-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 24px 24px;
 }
