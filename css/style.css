@@ -309,12 +309,14 @@ body {
   justify-content: center;
 }
 
-.history-content-title {
+.history-content-title,
+.menu-popular-title {
   margin-bottom: 12px;
 }
 
 .history-content-subtitle,
-.discover-content-subtitle {
+.discover-content-subtitle,
+.menu-popular-subtitle {
   margin-bottom: 36px;
 }
 
@@ -479,4 +481,47 @@ body {
 .discover-link:hover {
   color: #c99e71;
   background-color: #1c1814;
+}
+
+.menu-popular {
+  margin-bottom: 140px;
+  text-align: center;
+}
+
+.menu-popular-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 40px;
+  row-gap: 36px;
+}
+
+.menu-popular-item {
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  width: 565px;
+  height: 120px;
+  border: 1px solid #32323d;
+}
+
+.menu-popular-item-img {
+  width: 72px;
+  height: 72px;
+  margin-right: 20px;
+}
+
+.menu-popular-item-title {
+  font-family: 'Righteous', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.menu-popular-item-price {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #c99e71;
+  margin-left: auto;
 }
