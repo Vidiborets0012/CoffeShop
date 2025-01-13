@@ -773,7 +773,7 @@ body {
   line-height: 19px;
   color: #c99e71;
   padding-right: 32px;
-  background-image: url(../images/news-icon-arrow.svg);
+  background-image: url('../images/news-icon-arrow.svg');
   background-repeat: no-repeat;
   background-position: right center;
   background-size: 24px 24px;
