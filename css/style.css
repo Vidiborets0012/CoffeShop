@@ -310,13 +310,15 @@ body {
 }
 
 .history-content-title,
-.menu-popular-title {
+.menu-popular-title,
+.testimonial-title {
   margin-bottom: 12px;
 }
 
 .history-content-subtitle,
 .discover-content-subtitle,
-.menu-popular-subtitle {
+.menu-popular-subtitle,
+.testimonial-subtitle {
   margin-bottom: 36px;
 }
 
@@ -524,4 +526,123 @@ body {
   line-height: 22px;
   color: #c99e71;
   margin-left: auto;
+}
+
+.testimonial {
+  margin-bottom: 140px;
+}
+
+.testimonial-title,
+.testimonial-subtitle {
+  text-align: center;
+}
+
+.testimonial-inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 36px;
+}
+
+.testimonial-item {
+  padding: 40px 40px 37px;
+  background-color: #1c1814;
+}
+
+.testemonial-item-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 28px;
+}
+
+.testimonial-item-img {
+  width: 129px;
+  height: 149px;
+}
+
+.testimonial-item-text {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.testimonial-item-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial-customer-name {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.testimonial-customer-position {
+  font-size: 14px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.testimonial-rating-list {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+  padding-bottom: 6px;
+}
+
+.testimonial-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonial-count-text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #c99e71;
+  margin-bottom: 20px;
+}
+
+.testimonial-count-progress {
+  appearance: none;
+  width: 120px;
+  height: 4px;
+}
+
+.testimonial-count-progress::-webkit-progress-bar {
+  background-color: #2b2926;
+}
+
+.testimonial-count-progress::-webkit-progress-value {
+  border-radius: 3px;
+  background-color: #c99e71;
+}
+
+.testimonial-btn-inner {
+  display: flex;
+  gap: 16px;
+}
+
+.testimonial-btn-prev,
+.testimonial-btn-next {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+.testimonial-btn-prev:hover,
+.testimonial-btn-next:hover {
+  background-color: #c99e71;
+}
+
+.testimonial-btn-prev:hover path,
+.testimonial-btn-next:hover path {
+  stroke: #010102;
 }
